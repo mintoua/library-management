@@ -26,6 +26,8 @@ public class User implements Serializable {
 
     @NotBlank
     private String username;
+    private String firstname;
+    private String lastname;
     @NotBlank
     private String password;
     private String email;
